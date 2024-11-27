@@ -14,7 +14,7 @@ A lightweight, customizable multi-select component for web applications. Easy to
 
 ## Example
 
-![Example](https://res.cloudinary.com/saimun/image/upload/c_scale,w_450/v1730702819/gifmaker_me_2_xaynlw.gif)
+![Example](https://res.cloudinary.com/saimun/image/upload/v1732724451/Screenshot_from_2024-11-27_22-18-26_pmueq1.png)
 
 ## 1. Installation
 
@@ -103,9 +103,9 @@ export default App;
 | **`defaultValue`**    | `Options[]`           | `[]`        | Array of pre-selected options.                                 |
 | **`creatable`**       | `boolean`             | `false`     | Allows creation of new options dynamically.                    |
 | **`emptyState`**      | `boolean`             | `false`     | Displays a message when no options are available.              |
-| **`size`**            | `string`              | `"medium"`  | Adjusts the size of the dropdown (`small`, `medium`, `large`). |
-| **`width`**           | `string`              | `"100%"`    | Sets the custom width of the dropdown.                         |
-| **`maxHeight`**       | `string`              | `"300px"`   | Maximum height for the dropdown menu.                          |
+| **`size`**            | `"sm","md","lg"`      | `"md"`      | Adjusts the size of the dropdown (`small`, `medium`, `large`). |
+| **`width`**           | `number`              | `400`       | Sets the custom width of the dropdown.                         |
+| **`maxHeight`**       | `number`              | `400`       | Maximum height for the dropdown menu.                          |
 | **`maxLengthShow`**   | `number`              | `10`        | Maximum number of visible options before scrolling is enabled. |
 
 This documentation helps developers understand the props they can use, along with their types and defaults, including how to apply custom styles through `customClass`.
