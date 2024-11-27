@@ -77,8 +77,8 @@ const App = () => {
       placeholderText="Select an item"
       size="sm"
       maxLengthShow={2}
-      width={800}
-      maxHeight={200}
+      width={400}
+      maxHeight={300}
   );
 };
 
@@ -105,7 +105,7 @@ export default App;
 | **`emptyState`**      | `boolean`             | `false`     | Displays a message when no options are available.              |
 | **`size`**            | `"sm","md","lg"`      | `"md"`      | Adjusts the size of the dropdown (`small`, `medium`, `large`). |
 | **`width`**           | `number`              | `400`       | Sets the custom width of the dropdown.                         |
-| **`maxHeight`**       | `number`              | `400`       | Maximum height for the dropdown menu.                          |
+| **`maxHeight`**       | `number`              | `300`       | Maximum height for the dropdown menu.                          |
 | **`maxLengthShow`**   | `number`              | `10`        | Maximum number of visible options before scrolling is enabled. |
 
 This documentation helps developers understand the props they can use, along with their types and defaults, including how to apply custom styles through `customClass`.

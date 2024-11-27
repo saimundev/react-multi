@@ -17,13 +17,13 @@ interface MultiSelectProps {
     emptyState?: string;
     size?: "sm" | "md" | "lg";
     width?: number;
-    height?: number;
+    maxHeight?: number;
     maxLengthShow?: number;
     maxAcceptItem?: number;
     hideHeader?: boolean;
 }
 
-declare const MultiSelect: ({ options, onChange, isSearchable, placeholderText, chip, checked, disabled, defaultValue, creatable, emptyState, size, width, height, maxLengthShow, maxAcceptItem, hideHeader, }: MultiSelectProps) => react_jsx_runtime.JSX.Element;
+declare const MultiSelect: ({ options, onChange, isSearchable, placeholderText, chip, checked, disabled, defaultValue, creatable, emptyState, size, width, maxHeight, maxLengthShow, maxAcceptItem, hideHeader, }: MultiSelectProps) => react_jsx_runtime.JSX.Element;
 
 interface Options {
     value: string | number;

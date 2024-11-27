@@ -16,7 +16,7 @@ export interface MultiSelectProps {
   emptyState?: string;
   size?: "sm" | "md" | "lg";
   width?: number;
-  height?: number;
+  maxHeight?: number;
   maxLengthShow?: number;
   maxAcceptItem?: number;
   hideHeader?: boolean;

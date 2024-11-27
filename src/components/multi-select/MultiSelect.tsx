@@ -19,7 +19,7 @@ export const MultiSelect = ({
   emptyState = "No results found",
   size = "md",
   width = 400,
-  height = 400,
+  maxHeight = 300,
   maxLengthShow = 10,
   maxAcceptItem,
   hideHeader,
@@ -298,7 +298,7 @@ export const MultiSelect = ({
         {selecteOptions.length > 0 ? (
           <div
             className="custom-select-group-list"
-            style={{ maxHeight: height }}
+            style={{ maxHeight: maxHeight }}
           >
             {selecteOptions.map((list, index) => (
               <div
