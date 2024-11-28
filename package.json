@@ -7,9 +7,9 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saimundev/react-beautiful-modal"
+    "url": "https://github.com/saimundev/react-multi"
   },
-  "homepage": "https://react-beautiful-modal.vercel.app/doc/installation",
+  "homepage": "https://react-multi.vercel.app/doc/installation",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c --bundleConfigAsCjs"

@@ -1,6 +1,6 @@
 # react-multi
 
-A lightweight, customizable multi-select component for web applications. Easy to integrate, responsive, and supports user interactions with customizable responses.
+A lightweight, customizable multi-select component for web applications. Easy to integrate, responsive,Dark mood, and supports user interactions with customizable responses.
 
 ## 🎉🎉 Features
 
