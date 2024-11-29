@@ -1,4 +1,4 @@
-# react-multi
+# react-multis
 
 A lightweight, customizable multi-select component for web applications. Easy to integrate, responsive,Dark mood, and supports user interactions with customizable responses.
 
@@ -10,7 +10,7 @@ A lightweight, customizable multi-select component for web applications. Easy to
 - Lightweight with minimal dependencies.
 - Easily customizable via props.
 - Typescript support
-- [Small bundle size](https://bundlephobia.com/result?p=react-multi)
+- [Small bundle size](https://bundlephobia.com/result?p=react-multis)
 
 ## Example
 
@@ -18,11 +18,11 @@ A lightweight, customizable multi-select component for web applications. Easy to
 
 ## 1. Installation
 
-`npm install react-multi`
+`npm install react-multis`
 
-`yarn add react-multi`
+`yarn add react-multis`
 
-`pnpm add react-multi`
+`pnpm add react-multis`
 
 ## 2. Live Demo
 
